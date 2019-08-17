@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJMRecordDetailVC">
+            <connections>
+                <outlet property="endCleanLab" destination="FbP-9P-uPG" id="7br-Q5-KxM"/>
+                <outlet property="mapView" destination="Xiz-f2-NSi" id="SC7-c0-ebc"/>
+                <outlet property="resaonView" destination="37Y-hu-iWT" id="lTs-n4-ql0"/>
+                <outlet property="startCleanLab" destination="CzF-e5-QLm" id="MRh-xo-EgO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xiz-f2-NSi">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="418.5"/>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37Y-hu-iWT">
+                    <rect key="frame" x="20" y="418.5" width="280" height="65.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzF-e5-QLm">
+                            <rect key="frame" x="20" y="10" width="240" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbP-9P-uPG">
+                            <rect key="frame" x="20" y="35" width="240" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="CzF-e5-QLm" firstAttribute="top" secondItem="37Y-hu-iWT" secondAttribute="top" constant="10" id="29H-FP-dCs"/>
+                        <constraint firstAttribute="trailing" secondItem="CzF-e5-QLm" secondAttribute="trailing" constant="20" id="3MZ-vd-63E"/>
+                        <constraint firstItem="FbP-9P-uPG" firstAttribute="width" secondItem="CzF-e5-QLm" secondAttribute="width" id="FFT-bh-Vds"/>
+                        <constraint firstAttribute="trailing" secondItem="FbP-9P-uPG" secondAttribute="trailing" constant="20" id="LvG-V6-3Je"/>
+                        <constraint firstItem="CzF-e5-QLm" firstAttribute="leading" secondItem="37Y-hu-iWT" secondAttribute="leading" constant="20" id="e8F-wr-20Y"/>
+                        <constraint firstItem="FbP-9P-uPG" firstAttribute="height" secondItem="CzF-e5-QLm" secondAttribute="height" id="gWU-Ij-Kdx"/>
+                        <constraint firstItem="FbP-9P-uPG" firstAttribute="top" secondItem="CzF-e5-QLm" secondAttribute="bottom" constant="5" id="k70-4F-PmK"/>
+                        <constraint firstItem="FbP-9P-uPG" firstAttribute="leading" secondItem="37Y-hu-iWT" secondAttribute="leading" constant="20" id="sX2-FW-2EP"/>
+                        <constraint firstAttribute="bottom" secondItem="FbP-9P-uPG" secondAttribute="bottom" constant="10" id="xG8-x8-rhV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Xiz-f2-NSi" firstAttribute="top" secondItem="RE5-ft-hjH" secondAttribute="top" id="2RV-8G-EGF"/>
+                <constraint firstItem="37Y-hu-iWT" firstAttribute="leading" secondItem="RE5-ft-hjH" secondAttribute="leading" constant="20" id="75X-TM-dRi"/>
+                <constraint firstItem="Xiz-f2-NSi" firstAttribute="leading" secondItem="RE5-ft-hjH" secondAttribute="leading" id="DDW-Ca-slO"/>
+                <constraint firstAttribute="bottom" secondItem="37Y-hu-iWT" secondAttribute="bottom" constant="20" id="Iou-zD-bW4"/>
+                <constraint firstItem="37Y-hu-iWT" firstAttribute="top" secondItem="Xiz-f2-NSi" secondAttribute="bottom" id="LPb-W9-iwe"/>
+                <constraint firstItem="37Y-hu-iWT" firstAttribute="top" secondItem="Xiz-f2-NSi" secondAttribute="bottom" id="auG-5P-OEH"/>
+                <constraint firstItem="Xiz-f2-NSi" firstAttribute="trailing" secondItem="RE5-ft-hjH" secondAttribute="trailing" id="my0-QB-zjX"/>
+                <constraint firstItem="Xiz-f2-NSi" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.83" id="uSI-Zc-aXv"/>
+                <constraint firstItem="RE5-ft-hjH" firstAttribute="trailing" secondItem="37Y-hu-iWT" secondAttribute="trailing" constant="20" id="ur9-gp-PKB"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="RE5-ft-hjH"/>
+            <point key="canvasLocation" x="-191" y="-1199"/>
+        </view>
+    </objects>
+</document>

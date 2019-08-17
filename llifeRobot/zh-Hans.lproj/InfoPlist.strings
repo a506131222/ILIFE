@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  llifeRobot
+
+  Created by 张佳满 on 2017/11/22.
+  Copyright © 2017年 ZJM. All rights reserved.
+*/
+"CFBundleDisplayName" = "智意机器人";
+"NSPhotoLibraryUsageDescription" = "'智意机器人'想访问您的相册";
+"NSCameraUsageDescription" = "'智意机器人'会在扫描二维码和上传头像访问您的相机功能";
+
+
+

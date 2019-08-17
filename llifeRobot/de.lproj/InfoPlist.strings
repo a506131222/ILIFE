@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  llifeRobot
+
+  Created by 张佳满 on 2017/11/22.
+  Copyright © 2017年 ZJM. All rights reserved.
+*/
+
+
+"CFBundleDisplayName" = "ILIFE Robot";
+"NSPhotoLibraryUsageDescription" = "'ILIFE Robot' Want to Visit Your Album";
+"NSCameraUsageDescription" = "'llifeRobot'Want to Open Camera";

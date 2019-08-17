@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJMCleanRecordVC">
+            <connections>
+                <outlet property="cleanRecordTableView" destination="frO-il-7oY" id="COk-Og-i7l"/>
+                <outlet property="neverRecordLab" destination="aLt-nM-1Pt" id="KDX-sK-iSo"/>
+                <outlet property="neverRecordView" destination="nSG-Uh-Pnh" id="AHd-uC-tMI"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="frO-il-7oY">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Z7T-1o-Mef"/>
+                        <outlet property="delegate" destination="-1" id="H6e-Tz-BK6"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="frO-il-7oY" secondAttribute="trailing" id="Sm5-fn-uSa"/>
+                <constraint firstItem="frO-il-7oY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="bmq-wK-vCO"/>
+                <constraint firstItem="frO-il-7oY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jqJ-an-unK"/>
+                <constraint firstAttribute="bottom" secondItem="frO-il-7oY" secondAttribute="bottom" id="tY3-2A-bv5"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="1238" y="43"/>
+        </view>
+        <view contentMode="scaleToFill" id="nSG-Uh-Pnh">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无清扫记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLt-nM-1Pt">
+                    <rect key="frame" x="120.5" y="288.5" width="134" height="26.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="aLt-nM-1Pt" firstAttribute="centerX" secondItem="nSG-Uh-Pnh" secondAttribute="centerX" id="RMW-jM-EgL"/>
+                <constraint firstItem="aLt-nM-1Pt" firstAttribute="centerY" secondItem="nSG-Uh-Pnh" secondAttribute="centerY" id="z0C-lq-yKE"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="461" y="51"/>
+        </view>
+    </objects>
+</document>

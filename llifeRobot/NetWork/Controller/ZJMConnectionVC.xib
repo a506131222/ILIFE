@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJMConnectionVC">
+            <connections>
+                <outlet property="connectionTableView" destination="Ifq-jg-ijs" id="ibu-ym-czI"/>
+                <outlet property="nextBtn" destination="svT-nM-wCq" id="rga-f1-b67"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ifq-jg-ijs">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="482.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="6hL-3k-qzS"/>
+                        <outlet property="delegate" destination="-1" id="bAh-wg-1mz"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LHr-Ia-2uw">
+                    <rect key="frame" x="0.0" y="482.5" width="375" height="120.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svT-nM-wCq">
+                            <rect key="frame" x="37.5" y="36.5" width="300" height="48.5"/>
+                            <state key="normal" title="下一步" backgroundImage="登录边框"/>
+                            <connections>
+                                <action selector="Next:" destination="-1" eventType="touchUpInside" id="buh-J9-kcz"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="svT-nM-wCq" firstAttribute="centerY" secondItem="LHr-Ia-2uw" secondAttribute="centerY" id="A1h-pc-bMn"/>
+                        <constraint firstItem="svT-nM-wCq" firstAttribute="width" secondItem="LHr-Ia-2uw" secondAttribute="width" multiplier="0.8" id="EaH-Lb-JAU"/>
+                        <constraint firstItem="svT-nM-wCq" firstAttribute="height" secondItem="LHr-Ia-2uw" secondAttribute="height" multiplier="0.4" id="Lsa-hz-dK2"/>
+                        <constraint firstItem="svT-nM-wCq" firstAttribute="centerX" secondItem="LHr-Ia-2uw" secondAttribute="centerX" id="o2m-Pm-T1F"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="LHr-Ia-2uw" secondAttribute="trailing" id="3Zc-3Q-FXV"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="LHr-Ia-2uw" secondAttribute="bottom" id="CbS-9O-6SN"/>
+                <constraint firstItem="Ifq-jg-ijs" firstAttribute="height" secondItem="Q5M-cg-NOt" secondAttribute="height" multiplier="0.8" id="Gh1-lZ-Tfs"/>
+                <constraint firstItem="Ifq-jg-ijs" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="be7-1p-BC3"/>
+                <constraint firstItem="Ifq-jg-ijs" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="fIF-Fc-hga"/>
+                <constraint firstItem="LHr-Ia-2uw" firstAttribute="top" secondItem="Ifq-jg-ijs" secondAttribute="bottom" id="qb2-4s-L5D"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Ifq-jg-ijs" secondAttribute="trailing" id="yrK-Xh-jUy"/>
+                <constraint firstItem="LHr-Ia-2uw" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="zqp-0Q-55j"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-120.5" y="-17.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="登录边框" width="356" height="56"/>
+    </resources>
+</document>

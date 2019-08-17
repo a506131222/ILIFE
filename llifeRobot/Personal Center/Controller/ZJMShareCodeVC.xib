@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJMShareCodeVC">
+            <connections>
+                <outlet property="bindDeviceLab" destination="GAR-K1-RF8" id="Kw7-Vm-cKt"/>
+                <outlet property="codeImage" destination="Oej-C9-5bG" id="VqF-aM-iOM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jix-G0-rcD">
+                    <rect key="frame" x="28.5" y="138.5" width="319" height="277"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Oej-C9-5bG">
+                            <rect key="frame" x="48" y="27.5" width="223" height="223"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Oej-C9-5bG" secondAttribute="height" multiplier="1:1" id="DY1-6M-JPO"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请扫描二维码绑定设备" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAR-K1-RF8">
+                            <rect key="frame" x="20" y="260.5" width="279" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="GAR-K1-RF8" firstAttribute="leading" secondItem="Jix-G0-rcD" secondAttribute="leading" constant="20" id="4Vy-Cl-G4d"/>
+                        <constraint firstItem="GAR-K1-RF8" firstAttribute="top" secondItem="Oej-C9-5bG" secondAttribute="bottom" constant="10" id="7xu-KW-vbr"/>
+                        <constraint firstAttribute="trailing" secondItem="GAR-K1-RF8" secondAttribute="trailing" constant="20" id="DGX-Hi-Bu2"/>
+                        <constraint firstItem="Oej-C9-5bG" firstAttribute="width" secondItem="Jix-G0-rcD" secondAttribute="width" multiplier="0.7" id="Whh-0k-fdO"/>
+                        <constraint firstItem="Oej-C9-5bG" firstAttribute="centerY" secondItem="Jix-G0-rcD" secondAttribute="centerY" id="heC-9r-M7A"/>
+                        <constraint firstItem="GAR-K1-RF8" firstAttribute="centerX" secondItem="Jix-G0-rcD" secondAttribute="centerX" id="jv9-Uc-JcU"/>
+                        <constraint firstItem="Oej-C9-5bG" firstAttribute="centerX" secondItem="Jix-G0-rcD" secondAttribute="centerX" id="q8l-xq-ghJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.94999999999999996"/>
+            <constraints>
+                <constraint firstItem="Jix-G0-rcD" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="QIc-Mm-kkU"/>
+                <constraint firstItem="Jix-G0-rcD" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.85" id="T73-ab-tjH"/>
+                <constraint firstItem="Jix-G0-rcD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="krI-Z9-y5A"/>
+                <constraint firstItem="Jix-G0-rcD" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.5" id="tb9-eu-i94"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+            <point key="canvasLocation" x="-99" y="24"/>
+        </view>
+    </objects>
+</document>

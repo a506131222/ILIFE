@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJMAddReserVC">
+            <connections>
+                <outlet property="addBtn" destination="u3W-Sf-Nyn" id="h8g-TA-5rX"/>
+                <outlet property="neverBtn" destination="wQX-rT-EYc" id="J0k-kX-W1S"/>
+                <outlet property="neverLab" destination="FMl-iW-Cng" id="8hN-XL-xfc"/>
+                <outlet property="neverReverView" destination="i5M-Pr-FkT" id="6n3-I9-OkB"/>
+                <outlet property="reserTableView" destination="Kpm-Z1-NaO" id="Ymq-Ig-DWz"/>
+                <outlet property="view" destination="jBf-3d-d39" id="F18-XO-01r"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jBf-3d-d39">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kpm-Z1-NaO">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="494"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="DOH-iG-Q5H"/>
+                        <outlet property="delegate" destination="-1" id="zQ0-BM-nKM"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EmO-VR-wNH">
+                    <rect key="frame" x="0.0" y="494" width="375" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQX-rT-EYc">
+                            <rect key="frame" x="19" y="0.0" width="337.5" height="42"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <state key="normal" title="添加预约" backgroundImage="登录边框">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onceAddRever:" destination="-1" eventType="touchUpInside" id="Tfa-ru-oqn"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="wQX-rT-EYc" firstAttribute="width" secondItem="EmO-VR-wNH" secondAttribute="width" multiplier="0.9" id="LiS-0c-Uh0"/>
+                        <constraint firstItem="wQX-rT-EYc" firstAttribute="height" secondItem="EmO-VR-wNH" secondAttribute="height" multiplier="0.7" id="fVY-N9-0JE"/>
+                        <constraint firstItem="wQX-rT-EYc" firstAttribute="top" secondItem="EmO-VR-wNH" secondAttribute="top" id="flr-9l-K9H"/>
+                        <constraint firstItem="wQX-rT-EYc" firstAttribute="centerX" secondItem="EmO-VR-wNH" secondAttribute="centerX" id="vA2-iB-VEP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Kpm-Z1-NaO" secondAttribute="bottom" constant="60" id="0fa-53-LsS"/>
+                <constraint firstAttribute="trailing" secondItem="EmO-VR-wNH" secondAttribute="trailing" id="4N8-Re-4Qe"/>
+                <constraint firstAttribute="bottom" secondItem="EmO-VR-wNH" secondAttribute="bottom" id="DJr-1d-G9n"/>
+                <constraint firstItem="Kpm-Z1-NaO" firstAttribute="leading" secondItem="jBf-3d-d39" secondAttribute="leading" id="I3b-is-Nlt"/>
+                <constraint firstItem="Kpm-Z1-NaO" firstAttribute="top" secondItem="jBf-3d-d39" secondAttribute="top" id="TRm-Pr-iCp"/>
+                <constraint firstItem="EmO-VR-wNH" firstAttribute="leading" secondItem="jBf-3d-d39" secondAttribute="leading" id="hk0-ly-w03"/>
+                <constraint firstItem="EmO-VR-wNH" firstAttribute="top" secondItem="Kpm-Z1-NaO" secondAttribute="bottom" id="xlJ-mj-nhq"/>
+                <constraint firstAttribute="trailing" secondItem="Kpm-Z1-NaO" secondAttribute="trailing" id="yKg-Ub-VXK"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+            <point key="canvasLocation" x="515.5" y="-69.5"/>
+        </view>
+        <view clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3W-Sf-Nyn">
+                    <rect key="frame" x="19" y="489.5" width="337.5" height="44.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="19"/>
+                    <state key="normal" title="添加预约" backgroundImage="登录边框">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onceAddRever:" destination="-1" eventType="touchUpInside" id="igD-lY-DJK"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="定时预约" translatesAutoresizingMaskIntoConstraints="NO" id="Vhf-1B-Ppm">
+                    <rect key="frame" x="125.5" y="217" width="124" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="3PK-Ya-pJf"/>
+                        <constraint firstAttribute="width" secondItem="Vhf-1B-Ppm" secondAttribute="height" multiplier="329:319" id="FO8-vi-PlS"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您还没有预约记录" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMl-iW-Cng">
+                    <rect key="frame" x="110.5" y="347" width="155" height="23"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.74117647060000003" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="u3W-Sf-Nyn" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.08" id="1O7-Od-K5f"/>
+                <constraint firstAttribute="bottom" secondItem="u3W-Sf-Nyn" secondAttribute="bottom" constant="20" id="Bij-BO-BDP"/>
+                <constraint firstItem="u3W-Sf-Nyn" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.9" id="CBw-0Z-ZGH"/>
+                <constraint firstItem="FMl-iW-Cng" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LNk-br-oc4"/>
+                <constraint firstItem="Vhf-1B-Ppm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SZP-ch-OBx"/>
+                <constraint firstItem="u3W-Sf-Nyn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XcA-tm-5Ld"/>
+                <constraint firstItem="Vhf-1B-Ppm" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="i9j-cZ-VTn"/>
+                <constraint firstItem="FMl-iW-Cng" firstAttribute="top" secondItem="Vhf-1B-Ppm" secondAttribute="bottom" constant="10" id="nae-2Z-9c6"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+            <point key="canvasLocation" x="-133.5" y="-68.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="定时预约" width="327" height="319"/>
+        <image name="登录边框" width="356" height="56"/>
+    </resources>
+</document>

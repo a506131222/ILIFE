@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJMChoiceRobotVC">
+            <connections>
+                <outlet property="choiceRobotTableView" destination="Tj0-vX-And" id="H6A-uQ-ZqA"/>
+                <outlet property="view" destination="rYh-RD-ybp" id="q9f-EY-NeX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rYh-RD-ybp">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tj0-vX-And">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                    <color key="backgroundColor" red="0.85490196080000003" green="0.85490196080000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <viewLayoutGuide key="safeArea" id="OBf-HU-CRW"/>
+                    <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="jX6-Nl-KSm"/>
+                        <outlet property="delegate" destination="-1" id="z04-9E-gmi"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="tintColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Tj0-vX-And" secondAttribute="trailing" id="51L-ut-ZCf"/>
+                <constraint firstItem="Tj0-vX-And" firstAttribute="top" secondItem="sO7-cd-gE9" secondAttribute="top" id="Qpw-DF-F7w"/>
+                <constraint firstAttribute="bottom" secondItem="Tj0-vX-And" secondAttribute="bottom" id="h8G-cj-GsH"/>
+                <constraint firstItem="Tj0-vX-And" firstAttribute="leading" secondItem="rYh-RD-ybp" secondAttribute="leading" id="wZR-Ms-ARL"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+            <viewLayoutGuide key="safeArea" id="sO7-cd-gE9"/>
+            <point key="canvasLocation" x="17.5" y="97.5"/>
+        </view>
+    </objects>
+</document>

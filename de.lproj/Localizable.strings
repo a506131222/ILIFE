@@ -1,0 +1,381 @@
+/* 
+  Localizable.strings
+  llifeRobot
+
+  Created by Yannis on 11/11/17.
+  Copyright © 2017年 ZJM. All rights reserved.
+*/
+
+//
+"My Device" = "Mein Saugroboter";
+"Personal Center" = "Persönliche Daten";
+"Status: Offline" = "Status: Gerät offline";
+"Log In" = "Einloggen";
+"Log In\\Sign Up" = "Einloggen\\Registrieren";
+"Device Sharing" = "Teilen des Gerätes";
+"Version" = "Version";
+"Setting" = "Einstellungen";
+"Confirm" = "Cancel";
+"Cancel" = "Abbrechen";
+"E-mail" = "E-mail";
+"Log Out" = "Abmelden";
+"Log out" = "Abmelden";
+"Login Success" = "Login Erfolgreich";
+"Avatar Setting" = "Avatar Einstellungen";
+"Set Avatar Success" = "Einstellung des Avatars Erfolgreich";
+"Set Avatar Failed" =  "Einstellung des Avatars Fehlgeschlagen";
+"Scan QR Code To Bind The Device" = "QR Code scannen um das Gerät zu Verbinden";
+"Forget Password?" = "Forget Password?";
+"Sign Up" = "Registrieren";
+"Modify Avatar" = "Avatar Bearbeiten";
+"Take Photo" = "Foto Erstellen";
+"Choose from Album" = "Aus dem Album Wählen";
+"Please Input Your Email" = "Please Eingabe Email";
+"Please Enter Password"  = "Please Passwort Eingeben";
+"Input Vertification Code" = "Eingabe Verifizierungs Code";
+"Input Email Vertification Code" = "Eingabe Email Verifizierungs Code";
+"Add a New Device" = "Neues Gerät Hinzufügen";
+"Begin to Connect" = "Verbindung Wird Hergestellt";
+"Please Log In First" = "Bitte Erst Einloggen";
+"Press again to Exit" = "Drücken Sie erneut, um zu beenden";
+"Add A Robot" = "Neues Gerät Hinzufügen";
+"You Don't Have An ILIFERobot" = "Kein Sauger Verfügbar";
+"Unlocking Success" = "Verbindung Getrennt";
+"Version" = "Version";
+"Setting" = "Einstellungen";
+"Click to set Username" = "Klicken um Benutzernamen Festzulegen";
+"No Equipment to Share" = "Keine Ausrüstung zum Teilen";
+"Successfully Get Share Code" = "Passwort Erfolgreich Übermittelt";
+"Set Avatar Success" = "Einstellung des Avatars Erfolgreich";
+"Add a New Device" = "Neues Gerät Hinzufügen";
+"Please start the device and click start connect" = "Bitte starten Sie das Gerät und drücken Sie auf Start um die Verbindung Herzustellen";
+"Wi-Fi Name:" = "Wi-Fi Name:";
+"Wi-Fi Password:" = "Wifi Passwort:";
+"Begin to Connect" = "Verbindung Wird Hergestellt";
+"Configuration Failed?" = "Konfiguration Gescheitert?";
+"Activating Device,Please wait..." = "Gerät Wird Aktiviert, Bitte Warten Sie…";
+"Fail to Link Network,Please Check the Network Settings" = "Netzwerkverbindung fehlgeschlagen, bitte überprüfen Sie ihr Netzwerk";
+"Device Binding  Success" = "Verbindung Erfolgreich";
+"First Step" = "First Step";
+"Connect to the hotspot" = "Connect to the hotspot";
+"Second Step"  = "Second Step";
+"Please Select the Wi-Fi" = "Please Select the Wi-Fi";
+"Tips:Click to enter the Wi-Fi password of your choice before starting to connect" = "Tips:Click to enter the Wi-Fi password of your choice before starting to connect";
+"Wi-Fi password" = "Wi-Fi Passwort";
+"Input Wi-Fi Password" = "Wi-Fi Passwort Eingeben";
+"Start to Connect"  = "Verbindung Wird Hergestellt";
+"Third Step" = "Third Step";
+"Tips:Fill in the device name and bind the device" = "Tips:Fill in the device name and bind the device";
+"Name Your Device" = "Vergeben Sie einen Namen";
+"Device Name:" = "Geräte Name:";
+"Input Device Name" = "Geräte Name Eingeben";
+"Bind the Device" = "Wird Verbunden";
+"No Hotspot to Access" = "No Hotspot to Access";
+"AP Distribution Mode" = "AP Distribution Mode";
+"No Available Wi-Fi" = "No Available Wi-Fi";
+"Failed to get the available Wi-Fi for the device" = "Failed to get the available Wi-Fi for the device";
+"Automatically connect the hotspot failed, please try to connect manually." = "Automatically connect the hotspot failed, please try to connect manually.";
+"Device activation successful, start binding the device." = "Device activation successful, start binding the device.";
+"Configuration Failed" = "Configuration Failed";
+"Process binding after activate device" = "Process binding after activate device";
+"Please Choose" = "Bitte Wählen";
+"Binding Success" = "Verbinden Erfolgreich";
+"Incorrect Email Format" = "Falsches E-Mail-Format";
+"Mailbox Has Been Registered" = "Postfach Wurde Registriert";
+"Sign Up" = "Registrieren";
+"Please Enter Mailbox" = "Eingabe Emailadresse";
+"Next Step" = "Nächster Schritt";
+"Read and Agreed" = "Lesen und Bestätigen";
+"User Agreement" = "Nutzungsbedingungen";
+"Reset Password" = "Passwort Zurücksetzen";
+"Get Verification Code" = "Bestätigungscode Erhalten";
+"Incorrect Code" = "Falscher Verifizierungs Code";
+"Seconds" = "Sekunden";
+"Spot" = "Punktuelles";
+"Reset Password Successfully" = "Passwort Zurücksetzen Erfolgreich";
+"Reset Password Failed" = "Passwort Zurücksetzen Fehlgeschlagen";
+"Input Verification Code" = "Eingabe Verifizierungs Code";
+"Please Set Password" ="Bitte das Passwort Festlegen";
+"Sign Up Success" = "Registrierung Erfolgreich";
+"Get Verification Code Successfully"  = "Bestätigungs Code Erfolgreich Erhalten";
+"Modify Avatar Success" = "Bearbeitung Erfolgreich";
+"Log In First" = "Bitte Erst Einloggen";
+"Version Update" = "Version Saktualisierung";
+"You don't have an appointment record" = "Keine geplanten Termine";
+"Appointment Record" = "Geplanten Termine";
+"Add Appointment" = "Termin Hinzufügen";
+"Timing Open" = "Timing Öffnen";
+"Timing Off" = "Timing Schließen";
+"Order Time" = "Planen Sie die Zeit";
+"P\nM" = "P\nM";
+"A\nM" = "A\nM";
+"Repeat" = "Wiederholen";
+"Once" = "Einmal";
+"Save" = "Sichern";
+"Cancel" = "Abbrechen";
+"Regular Clocking" = "Uhr Einstellen";
+"Offline Device"  = "Gerät Offline";
+"Loading, Please Wait" = "Wird geladen, Bitte Warten";
+"Appointment Limited" = "Einplanungen haben ihr Limit erreicht";
+"The same Appointment Already Exit" = "The same Appointment Already Exit";
+"Mon" = "MO";
+"Tue" = "DI";
+"Wed" = "MI";
+"Thur" = "DO";
+"Fri"  = "FR";
+"Sat" = "SA";
+"Sun" = "SO";
+"Every Mon" = "Jeden MO";
+"Every Tue" = "Jeden DI";
+"Every Wed" = "Jeden MI";
+"Every Thur" = "Jeden DO";
+"Every Fri" = "Jeden FR";
+"Every Sat" = "Jeden SA";
+"Every Sun" = "Jeden SO";
+"Open" = "Öffnen";
+"Close" = "Schließen";
+"Reset Side Brush Life" = "Lebensdauer Der Seitenbürsten Zurücksetzen";
+"Reset Roll Brush Life"  = "Lebensdauer Der Hauptbürste Zurücksetzen";
+"Reset HEPA filter Life" = "Lebensdauer Der HEPA Filters Zurücksetzen";
+"Reset Mop Life" = "Lebensdauer Wischtuch";
+"Reset Battery Life" = "Reset Battery Life";
+"Wi-Fi Unconnect" = "Wi-Fi Ist Nicht Verbunden";
+"Connection Timeout" = "Verbindung Abgelaufen";
+"Material Consume" = "Material Verbrauchs";
+"Tips:Long Press to Reset Consumes Life" = "Tipp: Zum Zurücksetzen Lange Gedrückt Halten";
+"Side Brush Life" = "Lebensdauer Seitenbürste";
+"Roll Brush Life" = "Lebensdauer Hauptbürste";
+"HEPA filter Life" = "Lebensdauer HEPA Filter";
+"Mop Life" = "Lebensdauer Wischtuch";
+"Battery Life" = "Battery Life";
+"Feedback Can Not Be Empty" = "Feedback Can Not Be Empty";
+"Phone Number Can Not Be Empty" = "Phone Number Can Not Be Empty";
+"Submit Success" = "Übertragen Erfolgreich";
+"The words Exceeded the Limit" = "Ziffern überschreiten das Limit";
+"Enter the Number of Words" = "Enter the Number of Words";
+"Problem Feedback" = "Feedback";
+"Submit" = "Übertragen";
+"Input Phone Number" = "Input Phone Number";
+"Descrip the Problem" = "Beschreiben sie das Problem";
+"Enter the Number of Words" = "Enter the Number of Words";
+"Spot Clean" = "Punktuelles Säubern";
+"Recharge" = "Aufladen";
+"Standby" = "Standby";
+"Stop Clean" = "Reinigung stoppen";
+"Start Clean" = "Reinigung beginnen";
+"Current Status" = "Aktueller Status";
+"Clean Area" = "Reinige Bereich";
+"Clean Time" = "Reinigungs Zeit";
+"Sleeping" = "Schlafmodus";
+"Remote" = "Fernbedienung";
+"Find" = "Suchen";
+"ILIFE Robotic Cleaner X430" = "Medion Saugroboter MD X430";
+"ILIFE Robotic Cleaner X780" = "Medion Saugroboter MD X780";
+"ILIFE Robotic Cleaner X782" = "Medion Saugroboter MD X782";
+"ILIFE Robotic Cleaner X785" = "Medion Saugroboter MD X785";
+"ILIFE Robotic Cleaner X800" = "Medion Saugroboter MD X800";
+"ILIFE Robotic Cleaner X900" = "Medion Saugroboter MD X900";
+"Subsccribe Success" = "Übertragen Erfolgreich";
+"Subsccribe Fail" = "Übertragung Fehlgeschlagen";
+"Abnormal" = "Abnormal";
+"Mode Setting" = "Modus-Einstellungen";
+"Room Mode" = "Room Mode";
+"Vacuum Cleanliness" = "Staubsauger Sauberkeit";
+"Mop Cleanliness" = "Wischtuch Sauberkeit";
+"Message" = "Message";
+"Robot Message" = "Robot Ernachricht";
+"Confirm Reset All Settings?" = "Bestätigen Sie um alle Einstellungen zurückzusetzen?";
+"Device Name Can Not Be Empty" = "Gerätename Darf Nicht Leer Sein";
+"Max Suction Mode" = "Max Suction Mode";
+"Consume Timing" = "Consume Timing";
+"Find Robot" = "Suche Saugroboter";
+"Cleaning Records" = "Aufgezeichnete Reinigungen";
+"Cleaning Mode" = "Reinigungs Modus";
+"Firmware Upgrade" = "Software Update";
+"Robot Name" = "Roboter Name";
+"Reset All Settings" = "Alle Einstellungen Zurückzusetzen";
+"Delete the Appointment" = "Delete the Appointment";
+"Confirm" = "Bestätigen";
+"Upload Image" = "Bild Hochladen";
+"Name Set Successful" = "Name Erfolgreich Festgelegt";
+"History Record" = "Aufzeichnungen";
+"No History Record" = "Keine Aufzeichnungen Gespeichert";
+"Status：Offline" = "Status: Offline";
+"Status：Cloud Online" = "Status: Cloud online";
+"Status：Local Online" = "Status：Local Online";
+"Status：Cloud and Local Online" = "Status：Cloud and Local Online";
+"Status：Device Online" = "Status：Device Online";
+"Status：Device Offline" = "Status：Device Offline";
+"Duration " = "Dauer ";
+"Cleaning " = "Reinigung ";
+"Record Detail" = "Datensatz Details";
+"Offline" = "Offline";
+"Random" = "Zufall";
+"AlongWall" = "Entlang der Wand";
+"Remote" = "Fernbedienung";
+"Username："  = "Benutzername：";
+"Input userName" = "Eingabe benutzername";
+"Username can not be null" = "Gerätename darf nicht leer sein";
+"Modify username success" = "Änderung des Benutzernamens Erfolgreich";
+"Modify username fail" = "Änderung des Benutzernamens Fehlgeschlagen";
+"No Error" = "Kein Fehler";
+"OBS Assembly Error" = "OBS Baugruppenfehler";
+"Bumper Error" = "Stoßfänger Fehler";
+"WALL EDGING SENSORS Assembly Error" = "Fehler Wand-Kanten-Sensor";
+"Cliff Sensor Assembly Error" = "Fehler Kliffsensor";
+"Nose Wheel Error" = "Fehler am Frontrad";
+"Left Side Brush Error" = "Fehler Linke Seitenbürste";
+"Right Side Brush Error" = "Fehler Seitenbürste";
+"Left Wheel Error" = "Fehler Linkes Rad";
+"Right Wheel Error" = "Fehler Rechtes Rad";
+"Roll Wheel Error" = "Fehler Wand-Kanten-Sensor";
+"Air Fan Error" = "Lüfterfehler";
+"Water Pump Error" = "Fehler Wasserpumpe";
+"Air Aump Error" = "Fehler der Luftzufuhr";
+"Dust Bin Error" = "Staubbehälter Fehler";
+"Water Tank Error" = "Water Tank Error";
+"HEPA Filter Error" = "Fehler Wassertankfilter";
+"Battery Error" = "Batterie Fehler";
+"GRYO Assembly Error" = "Fehler Gyroskop";
+"Radar Assembly Error" = "Radar Fehler";
+"Camera Assembly Error" = "Kamera Fehler";
+"Route Error" = "Routen Fehler";
+"Machine Hung Up" = "Roboter Hat Aufgelegt";
+"Other Error" = "Anderer Fehler";
+"Small Room" = "Small Room";
+"Medium Room" = "Medium Room";
+"Big Room" = "Big Room";
+"Water Tank" = "Water Tank";
+"Dust Bin" = "Dust Bin";
+"Both" = "Both";
+"Soft" = "Schwach";
+"Standard" = "Standard";
+"Strong" = "Stark";
+"There is no error record" = "Keine Fehleraufzeichnung";
+"Robot is on charge" = "Robot is on charge";
+"Connect WLAN" = "WLAN Verbinden";
+"Please confirm the phone connected to Wi-Fi NetWork" = "Bitte bestätigen Sie das mit dem WIFI Netzwerk verbundene Smartphone";
+"Unlocking Fail" = "Trennen Fehlgeschlagen";
+"Binding Fail" = "Verbinden Fehlgeschlagen";
+"Failed to Obtain QR Code" = "QR Code Nicht Erhalten";
+"Only Administrator have the access" = "Nur der Administrator hat Zugriff";
+"Can not Change Suction in this Mode" = "Saugfunktion Kann In Diesem Modus Nicht Verändert Werden";
+"Second" = "Sekunden";
+"Delete" = "Löschen";
+"Unbind" = "Verbindung Trennen";
+"Device Unbind" = "Gerät Wird Getrennt";
+"Device is in direct charging mode" = "Device is in direct charging mode";
+"Activating Device , Please Waiting..." = "Gerät Wird Aktiviert, Bitte Warten Sie…";
+"Modify Avatar Failed" = "Bearbeitung Fehlgeschlagen";
+"Account and Password can not be empty" = "Benutzer und Passwort Können Nicht Leer Sein";
+"Account not Exist" = "Benutzer Existiert Nicht";
+"Password Incorrect" = "Falsches Passwort";
+"NetWork Error" = "Netzwerk Fehler";
+"The firmware is the latest version"  = "Die Software ist auf dem aktuellsten Stand";
+"There is no binding device on the current network" = "Kein Verfügbares Gerät im aktuellen Netzwerk";
+"Scan the QR Code for the Viewfinder" = "Platzieren die den QR Code zum scannen im Rahmen";
+"Choose a equipment mode" = "Wählen sie einen Ausrüstungsmodus";
+"Please select the repeat date" = "Bitte wählen Sie das Wiederholungsdatum";
+"Submit failed, please check the network" = "Übertragung fehlgeschlagen. Bitte überprüfen Sie ihre Verbindung";
+"Failed to get the verification code" = "Fehler beim Abrufen des Bestätigungscodes";
+"Register successfully" = "Registrierung erfolgreich";
+"Register failed" = "Registrierung fehlgeschlagen";
+"Confirm" = "Bestätigen";
+"OK" = "OK";
+"Device Offline" = "Gerät Offline";
+"ILIFE Robot" = "Medion Saugroboter";
+"Scan QR Code" = "Scannen Sie den QR Code";
+"Reset Successfully" = "Reset Successfully";
+"The device is offline" = "Gerät ist offline";
+"Please check whether the device already connected to the WI-FI, if connected, please refresh the list." = "Bitte überprüfen Sie, ob das Gerät bereits mit dem WIFI verbunden ist. Wenn nicht, bitte aktualisieren Sie die Verbindung.";
+"Need to unbundle the device?" = "Soll das Gerät getrennt werden?";
+"Activation failed, please re-connect" = "Aktivierung fehlgeschlagen, bitte erneut verbinden";
+"The main device does not exist" = "Das Hauptgerät existiert nicht";
+"Device has been bind" = "Gerät wurde verbunden";
+"Device status error" = "Geräte Status: Fehler";
+"Set a nickname" = "Wählen Spitznamen";
+"Take a Photo" ="Foto Erstellen";
+"Choose from album" = "Aus dem Album wählen";
+"Log in?" = "Einloggen?";
+"Kind Remind" = "Freundliche Erinnerung";
+"Please-> [Settings-Privacy-Camera- IlifeRobot]" = "Bitte gehen Sie zu -> [Einstellungen-Datenschutz-Kamera-Medion Saugroboter]";
+"The camera was not detected" = "Kamera nicht gefunden";
+"The historical data will be recorded after log out, this account can be used in next login" = "The historical data will be recorded after log out, this account can be used in next login";
+"Note" = "Hinweis";
+"Please connect your phone to home Wi-Fi" = "Bitte verbinden Sie ihr Smarphone mit dem Heimnetzwerk";
+"I see" = "Ich verstehe";
+"Please confirm whether the phone is connecting with the Wi-Fi." = "Bitte bestätigen Sie, dass das Smartphone mit dem WIFI verbunden ist.";
+"Go to connect" = "Gehe zu Verbinden";
+"I have connected" = "Ich habe die Verbindung hergestellt";
+"This email is not registered" = "Die Emailadresse ist nicht registriert";
+"Wrong Password" = "Falsches Passwort";
+"Invalid Email" = "Ungültige Emailadresse";
+"Abnormal Account Status" = "Abnormaler Benutzer Status";
+"Please enter a password of 6-18 bits" = "Bitte geben Sie ein Passwort mit 6-18 Zeichen ein";
+"Wrong e-mail verification code" = "Falscher E-Mail Bestätigungs code";
+"Expired e-mail verification code" = "Abgelaufener E-Mail Bestätigungs code";
+"Verification code has been sent" = "Bestätigungscode wurde gesendet";
+"Please re-enter a new password of 6-18 bits" = "Bitte geben Sie erneut ein neues Passwort mit 6-18 Zeichen ein";
+"Please enter password again" = "Bitte wiederholen Sie das Passwort";
+"Both the input passwords is inconsistent" = "Passwörter stimmen nicht überein";
+"Charging" = "Lädt";
+"Charging..." = "Lädt...";
+"Nav" = "Nav";
+"All the data will be deleted" = "Alle Reinigungsdaten werden gelöscht";
+"Scan QR Code" = "Scan QR Code";
+"Login failed, Please login again" = "Login failed, Please login again";
+"Please enter new a password of 6-18 bits" = "Please enter new a password of 6-18 bits";
+"Please re-enter new a password of 6-18 bits" = "Please re-enter new a password of 6-18 bits";
+"Yes or No Reset" = "Zurücksetzen oder Nicht?";
+"Album" = "Album";
+"Put the QR Code /Bar Code into the frame,will Auto scan" = "Platzieren Sie den QR Code zum automatischen scannen im Rahmen";
+"Not yet open" = "Not yet open";
+"Device is not activated" = "Gerät ist nicht aktiviert";
+"Please Select Device Type" = "Wählen sie den Gerätetyp";
+"Device is mismatch" = "Gerät stimmt nicht überein";
+"The current version is the latest version" = "Version ist die Aktuellste";
+"Discover New Version" = "Neue Version gefunden";
+"Select" = "Wählen";
+"Appointment Failed,Please make an appointment again" = "Speicherung fehlgeschlagen, bitte speichern Sie erneut";
+"Update now" = "Jetzt aktualisieren";
+"Remind me later" = "Später erinnern";
+"Monday" = "Montag";
+"Tuesday" = "Dienstag";
+"Wednesday" = "Mittwoch";
+"Thursday" = "Donnerstag";
+"Friday" = "Freitag";
+"Saturday" = "Samstag";
+"Sunday" = "Sontag";
+"Please Read and Agreed User Agreement" = "Bitte lesen und bestätigen Sie zuerst die Nutzungsbedingungen";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

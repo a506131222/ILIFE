@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZJMSaveView">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="83"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eg1-d7-otq">
+                    <rect key="frame" x="10" y="8.5" width="239" height="66.5"/>
+                    <color key="backgroundColor" red="0.0" green="0.74117647060000003" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                    <state key="normal" title="保存">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWx-KZ-ngb">
+                    <rect key="frame" x="259" y="8.5" width="99" height="66.5"/>
+                    <color key="backgroundColor" red="0.0" green="0.74117647060000003" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XWx-KZ-ngb" firstAttribute="leading" secondItem="eg1-d7-otq" secondAttribute="trailing" constant="10" id="CUc-Yf-GIR"/>
+                <constraint firstItem="XWx-KZ-ngb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="IBJ-Nz-mTk"/>
+                <constraint firstItem="eg1-d7-otq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Zdr-A2-MPb"/>
+                <constraint firstItem="eg1-d7-otq" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.65" id="dhb-eQ-HND"/>
+                <constraint firstItem="eg1-d7-otq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ea6-oe-14D"/>
+                <constraint firstItem="XWx-KZ-ngb" firstAttribute="height" secondItem="eg1-d7-otq" secondAttribute="height" id="jJL-YN-b0L"/>
+                <constraint firstItem="eg1-d7-otq" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.8" id="jT6-3x-HJN"/>
+                <constraint firstAttribute="trailing" secondItem="XWx-KZ-ngb" secondAttribute="trailing" constant="10" id="l6L-xo-rGx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelBtn" destination="XWx-KZ-ngb" id="4Kd-FH-cgK"/>
+                <outlet property="saveBtn" destination="eg1-d7-otq" id="qMD-Qd-6Gr"/>
+            </connections>
+            <point key="canvasLocation" x="89" y="-249.5"/>
+        </view>
+    </objects>
+</document>

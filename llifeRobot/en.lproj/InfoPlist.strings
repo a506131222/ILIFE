@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  llifeRobot
+
+  Created by 魏青青 on 2019/1/9.
+  Copyright © 2019年 ZJM. All rights reserved.
+*/
+"CFBundleDisplayName" = "ILIFE Robot";
+"NSPhotoLibraryUsageDescription" = "'ILIFE Robot' Would Like to Access Your Photos";
+"NSCameraUsageDescription" = "'ILIFE Robot'will Scan QR Code and Upload Avatar to Access Your Camera Function.";
+
+

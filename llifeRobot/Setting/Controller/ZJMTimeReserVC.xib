@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJMTimeReserVC">
+            <connections>
+                <outlet property="cancelBtn" destination="9Bm-j0-Byc" id="EMe-bR-DXO"/>
+                <outlet property="reserTableView" destination="JoR-X2-wwf" id="IsX-sW-slG"/>
+                <outlet property="saveBtn" destination="JpP-h7-rm6" id="XGp-RR-EXC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JpP-h7-rm6">
+                    <rect key="frame" x="10" y="495" width="244" height="39"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                    <state key="normal" title="保存" backgroundImage="登录边框">
+                        <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="saveRever:" destination="-1" eventType="touchUpInside" id="xP3-Qc-Mpx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Bm-j0-Byc">
+                    <rect key="frame" x="264" y="495" width="101" height="39"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                    <state key="normal" title="取消" backgroundImage="登录边框">
+                        <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelRever:" destination="-1" eventType="touchUpInside" id="L6C-Wj-hj1"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JoR-X2-wwf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="474"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="EUc-Jd-e3s"/>
+                        <outlet property="delegate" destination="-1" id="Bi0-ux-KcC"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9Bm-j0-Byc" secondAttribute="trailing" constant="10" id="33i-nb-cYK"/>
+                <constraint firstItem="JoR-X2-wwf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9ie-rY-m4R"/>
+                <constraint firstItem="9Bm-j0-Byc" firstAttribute="leading" secondItem="JpP-h7-rm6" secondAttribute="trailing" constant="10" id="BLE-L8-UO2"/>
+                <constraint firstAttribute="bottom" secondItem="JoR-X2-wwf" secondAttribute="bottom" constant="80" id="Q5j-6m-k3B"/>
+                <constraint firstItem="9Bm-j0-Byc" firstAttribute="top" secondItem="JpP-h7-rm6" secondAttribute="top" id="aL3-ks-UNi"/>
+                <constraint firstItem="JpP-h7-rm6" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.07" id="ev2-06-Vcy"/>
+                <constraint firstAttribute="trailing" secondItem="JoR-X2-wwf" secondAttribute="trailing" id="fUB-Wa-hCa"/>
+                <constraint firstItem="JpP-h7-rm6" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.65" id="q2B-Vd-2hP"/>
+                <constraint firstItem="JpP-h7-rm6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="qJT-MT-PX0"/>
+                <constraint firstAttribute="bottom" secondItem="JpP-h7-rm6" secondAttribute="bottom" constant="20" id="qVn-GT-jsU"/>
+                <constraint firstItem="9Bm-j0-Byc" firstAttribute="height" secondItem="JpP-h7-rm6" secondAttribute="height" id="uIe-uA-cb7"/>
+                <constraint firstItem="JoR-X2-wwf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zG8-r4-7GO"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+            <point key="canvasLocation" x="67.5" y="59.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="登录边框" width="356" height="56"/>
+    </resources>
+</document>

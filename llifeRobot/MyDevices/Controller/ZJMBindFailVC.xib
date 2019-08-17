@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJMBindFailVC">
+            <connections>
+                <outlet property="apBtn" destination="cmw-ij-dv0" id="m8T-nI-DwN"/>
+                <outlet property="retryBtn" destination="Bu5-bx-hAP" id="nkw-X4-C9t"/>
+                <outlet property="step1Label" destination="VhV-SN-gpz" id="PmC-BM-S8P"/>
+                <outlet property="step2Label" destination="cpy-pr-nLD" id="Y8d-uW-LGi"/>
+                <outlet property="step3Label" destination="g8o-aP-GoF" id="1qM-Td-QbR"/>
+                <outlet property="step4Label" destination="udW-ff-RE1" id="BKS-lE-ek5"/>
+                <outlet property="titleLabel" destination="Vmp-r5-5oZ" id="Cmh-TC-6v9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.确保您的设备已经进入到配网模式;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhV-SN-gpz">
+                    <rect key="frame" x="16" y="67.5" width="294" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmw-ij-dv0">
+                    <rect key="frame" x="32" y="298.5" width="256" height="40.5"/>
+                    <state key="normal" title="进入AP配网" backgroundImage="登录边框"/>
+                    <connections>
+                        <action selector="ApnetWork:" destination="-1" eventType="touchUpInside" id="RO3-pW-VkF"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.确保输入的WiFi密码正确无误;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpy-pr-nLD">
+                    <rect key="frame" x="16" y="108.5" width="294" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.确保无线路由器的2.4GHz网络与5GHz网络的接入名称不同，并且手机连接到无线路由器2.4GHz网络;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8o-aP-GoF">
+                    <rect key="frame" x="16" y="149.5" width="294" height="47"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.确保无线路由器已关闭黑白名单(mac地址过滤)功能；" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udW-ff-RE1">
+                    <rect key="frame" x="16" y="221.5" width="294" height="31.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bu5-bx-hAP">
+                    <rect key="frame" x="32" y="349" width="256" height="40.5"/>
+                    <state key="normal" title="重试" backgroundImage="登录边框">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="retry:" destination="-1" eventType="touchUpInside" id="quK-sp-uhN"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oic-kM-MlJ">
+                    <rect key="frame" x="0.0" y="124.5" width="320" height="25"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="49e-cG-jqC">
+                    <rect key="frame" x="0.0" y="196.5" width="320" height="25"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8WT-EN-qk6">
+                    <rect key="frame" x="0.0" y="253" width="320" height="25.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7kb-10-87e">
+                    <rect key="frame" x="0.0" y="83.5" width="320" height="25"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请按以下步骤排查可能存在的问题:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vmp-r5-5oZ">
+                    <rect key="frame" x="16" y="26" width="288" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Vmp-r5-5oZ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="trailing" multiplier="0.05" id="0KI-6C-rWp"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="g8o-aP-GoF" secondAttribute="trailing" constant="10" id="0Ul-EW-dcs"/>
+                <constraint firstItem="8WT-EN-qk6" firstAttribute="height" secondItem="49e-cG-jqC" secondAttribute="height" id="6zg-7k-YEE"/>
+                <constraint firstItem="cmw-ij-dv0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9Zd-dY-RIx"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="udW-ff-RE1" secondAttribute="trailing" constant="10" id="A9v-Ke-riw"/>
+                <constraint firstItem="cpy-pr-nLD" firstAttribute="top" secondItem="7kb-10-87e" secondAttribute="bottom" id="Ah5-Pu-6Yl"/>
+                <constraint firstItem="VhV-SN-gpz" firstAttribute="leading" secondItem="Vmp-r5-5oZ" secondAttribute="leading" id="Bdg-lN-W8n"/>
+                <constraint firstItem="g8o-aP-GoF" firstAttribute="leading" secondItem="cpy-pr-nLD" secondAttribute="leading" id="Dnb-5R-K3h"/>
+                <constraint firstItem="8WT-EN-qk6" firstAttribute="width" secondItem="49e-cG-jqC" secondAttribute="width" id="Dtf-2C-fbe"/>
+                <constraint firstItem="Bu5-bx-hAP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EPX-Uq-iCL"/>
+                <constraint firstItem="udW-ff-RE1" firstAttribute="top" secondItem="49e-cG-jqC" secondAttribute="bottom" id="F9O-Pn-1Kr"/>
+                <constraint firstItem="Oic-kM-MlJ" firstAttribute="height" secondItem="7kb-10-87e" secondAttribute="height" id="H8G-1r-B8i"/>
+                <constraint firstItem="8WT-EN-qk6" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="IWG-n6-tVT"/>
+                <constraint firstItem="VhV-SN-gpz" firstAttribute="top" secondItem="Vmp-r5-5oZ" secondAttribute="bottom" multiplier="1.5" id="MWg-GN-xuH"/>
+                <constraint firstItem="cmw-ij-dv0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Mcd-cg-fAL"/>
+                <constraint firstItem="Bu5-bx-hAP" firstAttribute="height" secondItem="cmw-ij-dv0" secondAttribute="height" id="ND1-Kw-eD0"/>
+                <constraint firstItem="7kb-10-87e" firstAttribute="height" secondItem="Q5M-cg-NOt" secondAttribute="height" multiplier="0.05" id="T9H-lx-RJ1"/>
+                <constraint firstItem="cpy-pr-nLD" firstAttribute="leading" secondItem="VhV-SN-gpz" secondAttribute="leading" id="UH8-An-CAX"/>
+                <constraint firstItem="7kb-10-87e" firstAttribute="width" secondItem="Q5M-cg-NOt" secondAttribute="width" id="Vig-rr-hSJ"/>
+                <constraint firstItem="Oic-kM-MlJ" firstAttribute="width" secondItem="7kb-10-87e" secondAttribute="width" id="XEd-eJ-Gxc"/>
+                <constraint firstItem="udW-ff-RE1" firstAttribute="leading" secondItem="g8o-aP-GoF" secondAttribute="leading" id="asA-20-jRg"/>
+                <constraint firstItem="Vmp-r5-5oZ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="bottom" multiplier="0.05" id="coX-Wu-cDj"/>
+                <constraint firstItem="Bu5-bx-hAP" firstAttribute="width" secondItem="cmw-ij-dv0" secondAttribute="width" id="e2W-ab-Ulo"/>
+                <constraint firstItem="8WT-EN-qk6" firstAttribute="top" secondItem="udW-ff-RE1" secondAttribute="bottom" id="gAa-at-yiA"/>
+                <constraint firstItem="7kb-10-87e" firstAttribute="top" secondItem="VhV-SN-gpz" secondAttribute="bottom" id="gNl-o5-qKb"/>
+                <constraint firstItem="49e-cG-jqC" firstAttribute="height" secondItem="Oic-kM-MlJ" secondAttribute="height" id="iXS-yb-JHk"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="cpy-pr-nLD" secondAttribute="trailing" constant="10" id="ih8-1E-cPG"/>
+                <constraint firstItem="cmw-ij-dv0" firstAttribute="width" secondItem="Q5M-cg-NOt" secondAttribute="width" multiplier="0.8" id="jK7-0n-BFg"/>
+                <constraint firstItem="49e-cG-jqC" firstAttribute="width" secondItem="Oic-kM-MlJ" secondAttribute="width" id="kJn-Ez-cIS"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Vmp-r5-5oZ" secondAttribute="trailing" constant="16" id="kT7-fT-M6K"/>
+                <constraint firstItem="49e-cG-jqC" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="kk6-fb-mKJ"/>
+                <constraint firstItem="Oic-kM-MlJ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="lTP-aC-DDd"/>
+                <constraint firstItem="cmw-ij-dv0" firstAttribute="height" secondItem="Q5M-cg-NOt" secondAttribute="height" multiplier="0.08" id="lXl-fp-dgj"/>
+                <constraint firstItem="49e-cG-jqC" firstAttribute="top" secondItem="g8o-aP-GoF" secondAttribute="bottom" id="lad-jx-J1a"/>
+                <constraint firstItem="cmw-ij-dv0" firstAttribute="top" secondItem="8WT-EN-qk6" secondAttribute="bottom" constant="20" id="vHf-oT-Hbl"/>
+                <constraint firstItem="7kb-10-87e" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="wKU-Ra-Sp1"/>
+                <constraint firstItem="Oic-kM-MlJ" firstAttribute="top" secondItem="cpy-pr-nLD" secondAttribute="bottom" id="wMn-d8-4au"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="VhV-SN-gpz" secondAttribute="trailing" constant="10" id="xJS-Qt-LPD"/>
+                <constraint firstItem="g8o-aP-GoF" firstAttribute="top" secondItem="Oic-kM-MlJ" secondAttribute="bottom" id="xzy-mO-TgU"/>
+                <constraint firstItem="Bu5-bx-hAP" firstAttribute="top" secondItem="cmw-ij-dv0" secondAttribute="bottom" constant="10" id="z9i-aZ-Rbt"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="25" y="51"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="登录边框" width="356" height="56"/>
+    </resources>
+</document>

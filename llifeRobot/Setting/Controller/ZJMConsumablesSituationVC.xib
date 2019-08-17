@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJMConsumablesSituationVC">
+            <connections>
+                <outlet property="consumablessTableView" destination="vIC-7Q-Dcq" id="vTE-uo-LgB"/>
+                <outlet property="tipsLab" destination="thO-70-DZn" id="UXr-eJ-kGR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zCL-tE-DUb">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZK-Rr-NIR">
+                            <rect key="frame" x="0.0" y="43.5" width="375" height="1"/>
+                            <color key="backgroundColor" red="0.74901960784313726" green="0.74901960784313726" blue="0.74901960784313726" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="ZXF-1K-T49"/>
+                            </constraints>
+                            <attributedString key="attributedText"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小贴士:长按重置耗材寿命" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thO-70-DZn">
+                            <rect key="frame" x="20" y="12" width="335" height="21.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="thO-70-DZn" secondAttribute="trailing" constant="20" id="7sJ-9m-UnW"/>
+                        <constraint firstItem="thO-70-DZn" firstAttribute="leading" secondItem="zCL-tE-DUb" secondAttribute="leading" constant="20" id="Eba-EK-Fbe"/>
+                        <constraint firstItem="0ZK-Rr-NIR" firstAttribute="leading" secondItem="zCL-tE-DUb" secondAttribute="leading" id="GSv-Kf-m3c"/>
+                        <constraint firstItem="thO-70-DZn" firstAttribute="centerY" secondItem="zCL-tE-DUb" secondAttribute="centerY" id="NAP-9F-Ygb"/>
+                        <constraint firstAttribute="bottom" secondItem="0ZK-Rr-NIR" secondAttribute="bottom" id="cRu-1T-8Y1"/>
+                        <constraint firstAttribute="trailing" secondItem="0ZK-Rr-NIR" secondAttribute="trailing" id="tyd-Gg-piQ"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vIC-7Q-Dcq">
+                    <rect key="frame" x="0.0" y="44.5" width="375" height="509.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="8Pb-Bo-jrk"/>
+                        <outlet property="delegate" destination="-1" id="ZkX-tT-wLT"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vIC-7Q-Dcq" firstAttribute="top" secondItem="zCL-tE-DUb" secondAttribute="bottom" id="C4I-Af-DST"/>
+                <constraint firstAttribute="trailing" secondItem="vIC-7Q-Dcq" secondAttribute="trailing" id="E5v-82-cdC"/>
+                <constraint firstAttribute="bottom" secondItem="vIC-7Q-Dcq" secondAttribute="bottom" id="KTu-fH-dYA"/>
+                <constraint firstItem="vIC-7Q-Dcq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Kyk-n2-oIT"/>
+                <constraint firstAttribute="trailing" secondItem="zCL-tE-DUb" secondAttribute="trailing" id="O2t-0U-dLb"/>
+                <constraint firstItem="zCL-tE-DUb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="P7p-aD-bRc"/>
+                <constraint firstItem="zCL-tE-DUb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="PH2-K7-R0u"/>
+                <constraint firstItem="zCL-tE-DUb" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.08" id="bkD-dh-May"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

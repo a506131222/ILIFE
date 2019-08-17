@@ -1,0 +1,376 @@
+/* 
+  Localizable.strings
+  llifeRobot
+
+  Created by Yannis on 11/11/17.
+  Copyright © 2017年 ZJM. All rights reserved.
+*/
+
+"My Robot"                = "My Robot";
+"Password"                = "Password";
+"Add New Robot"           = "Add New Robot";
+"No ILIFE Robot Found"    = "No ILIFE Robot Found";
+"Status: Robot Offline"   = "Status: Robot Offline";
+"Status: Robot Online"    = "Status: Robot Online";
+"Please Check If Your Robot is Connected to WIFI, If Yes, Please Refresh My Robot Page" = "Please Check If Your Robot is Connected to WIFI, If Yes, Please Refresh My Robot Page";
+"Unbind"                  = "Unbind";
+"Unbinding Failed"        = "Unbinding Failed";
+"Unbinding Done"          = "Unbinding Done";
+"Unbind Your Robot"       = "Unbind Your Robot";
+"Are You Sure To Unbind Your Robot?" = "Are You Sure To Unbind Your Robot?";
+"Offline"                 = "Offline";
+"OK"                      = "OK";
+"Remind"                  = "Remind";
+"ILIFE Robot"             = "ILIFE Robot";
+"ILIFE Robotic Cleaner X420" = "ILIFE Robotic Cleaner X420";
+"ILIFE Robotic Cleaner X430" = "ILIFE Robotic Cleaner X430";
+"ILIFE Robotic Cleaner X780" = "ILIFE Robotic Cleaner X780";
+"ILIFE Robotic Cleaner X782" = "ILIFE Robotic Cleaner X782";
+"ILIFE Robotic Cleaner X785" = "ILIFE Robotic Cleaner X785";
+"ILIFE Robotic Cleaner X800" = "ILIFE Robotic Cleaner X800";
+"ILIFE Robotic Cleaner X787" = "ILIFE Robotic Cleaner X787";
+"ILIFE Robotic Cleaner X900" = "ILIFE Robotic Cleaner X900";
+"ILIFE Robotic Cleaner X660" = "ILIFE Robotic Cleaner X660";
+"ILIFE Robotic Cleaner X790" = "ILIFE Robotic Cleaner X790";
+"ILIFE Robotic Cleaner A7" = "ILIFE Robotic Cleaner A7";
+"My Center"               = "My Center";
+"Log In"                  = "Log In";
+"Log In\\Sign Up"           = "Log In\\Sign Up";
+"Set User Name"           = "Set User Name";
+"User Name:"              = "User Name:";
+"Robot Name:"            = "Robot Name:";
+"Scan QR Code"            = "Scan QR Code";
+"Scan QR Code To Bind The Robot" = "Scan QR Code To Bind The Robot";
+"Put the QR Code/Bar Code Into Frame to Scan" = "Put the QR Code/Bar Code Into Frame to Scan";
+"Allow \"ILIFE Robot\" to Access Camera" = "Allow \"ILIFE Robot\" to Access Camera";
+"Share Your Robot"        = "Share Your Robot";
+"No Shareable Robots"     = "No Shareable Robots";
+"Version"                 = "Version";
+"Log Out"                 = "Log Out";
+"Please Log In First"     = "Please Log In First";
+"Log In Success"          = "Log In Success";
+"Not Log In"              = "Not Log In";
+"Delete Your Account"     = "Delete Your Account";
+"Please Use Your Register Email To Send \" Apply For Account Deletion\" to XXX@abc.com. Your Account Will Be Deleted Soon. Thank You For Your Support." = "Please Use Your Register Email To Send \" Apply For Account Deletion\" to XXX@abc.com. Your Account Will Be Deleted Soon. Thank You For Your Support.";
+"Confirm"                 = "Confirm";
+"User Name Update Failed" = "User Name Update Failed";
+"User Name Update Done"   = "User Name Update Done";
+"No Error"                = "No Error";
+"The History Record Will Remain After Log-out, You Can Use Same Account In Next Log-in" = "The History Record Will Remain After Log-out, You Can Use Same Account In Next Log-in";
+"Please Enter User Name"  = "Please Enter User Name";
+"User Name"               = "User Name";
+"Log In?"                 = "Log In?";
+"Put The QR Code /Bar Code Into The Frame" = "Put The QR Code /Bar Code Into The Frame,Will Auto Scan";
+"From Photo Library"      = "From Photo Library";
+"Camera Error"            = "Camera Error";
+"Feedback"                = "Feedback";
+"E-mail Address"          = "E-mail Address";
+"Wrong Email Format"      = "Wrong Email Format";
+"Please Choose Robot Model" = "Please Choose Robot Model";
+"Please Describe Your Trouble" = "Please Describe Your Trouble";
+"(140/140)"               = "(140/140)";
+"Words exceed the Limit"  = "Words exceed the Limit";
+"Submit"                  = "Submit";
+"Submission Failed, Please Check Network"     = "Submission Failed, Please Check Network";
+"Submission Done"         = "Submission Done";
+"Upload Image"            = "Upload Image";
+"Take Photo"              = "Take Photo";
+"Choose"                  = "Choose";
+"Please Enter E-mail Address" = "Please Enter E-mail Address";
+"Invalid Email"           = "Invalid Email";
+"Enter Password"          = "Enter Password";
+"Reset Password"          = "Reset Password";
+"Account Status Abnormal" = "Account Status Abnormal";
+"Reset Password Done"     = "Reset Password Done";
+"Failed to Get Verification Code" = "Failed to Get Verification Code";
+"Verification Code Obtaining…"= "Verification Code Obtaining…";
+"Verification Code Successfully Got" = "Verification Code Successfully Got";
+"Next Step"               = "Next Step";
+"This Email is Not Registered" = "This Email is Not Registered";
+"Enter User Name"         = "Enter User Name";
+"Log In Failed, Please Log In Again"         = "Log In Failed, Please Log In Again";
+"Wrong Password"          = "Wrong Password";
+"Email Address"           = "Email Address";
+"Enter Verification Code" = "Enter Verification Code";
+"Enter New Password"      = "Enter New Password";
+"Wrong Verification Code" = "Wrong Verification Code";
+"Network error, please check"         = "Network error, please check";
+"Invalid Verification Code" = "Invalid Verification Code";
+"Please Read and Agree User Agreement" = "Please Read and Agree User Agreement";
+"User Agreement"          = "User Agreement";
+"Privacy Policy Agreement" = "Privacy Policy Agreement";
+"Verification Code Has Been Sent" = "Verification Code Has Been Sent";
+"Verification Code Invalid" = "Verification Code Invalid";
+"Sign Up"                 = "Sign Up";
+"Mailbox Already Used, Please Try Another"  = "Mailbox Already Used, Please Try Another";
+"Please Set Password"     = "Please Set Password";
+"Please Read and Agree Privacy Policy Agreement" = "Please Read and Agree Privacy Policy Agreement";
+"Password up to 6-18digits" = "Password up to 6-18digits";
+"Choose Your Robot"       = "Choose Your Robot";
+"Tips"                    = "Tips";
+"Please Long Press Spot Button On Robot to Activate Robot" = "Please Long Press Spot Button On Robot to Activate Robot";
+"Connecting"              = "Connecting";
+"Can't Connect? Click Here" = "Can't Connect? Click Here";
+"Please Check If Mobile Has Connected to WLAN" = "Please Check If Mobile Has Connected to WLAN";
+"Setting"                 = "Setting";
+"Already Connected"       = "Already Connected";
+"Activating Your Robot, Please Wait…" = "Activating Your Robot, Please Wait...";
+"Binding Done"            = "Binding Done";
+"Binding Failed"          = "Binding Failed";
+"AP Networking Mode"      = "AP Networking Mode";
+"Please Choose WLAN Name Started with Robot-XXXX" = "Please Choose WLAN Name Started with Robot-XXXX";
+"Read and Agreed" = "Read and Agreed";
+"Seconds" = "Seconds";
+"Please enter a password of 6-18 bits" = "Please enter a password of 6-18 bits";
+"Choose WLAN"             = "Choose WLAN";
+"WLAN Not Connected"      = "WLAN Not Connected";
+"Connect WLAN"            = "Connect WLAN";
+"Please Choose"           = "Please Choose";
+"Enter WLAN Password"     = "Enter WLAN Password";
+"WLAN Password:"= "WLAN Password:";
+"Done"                    = "Done";
+"Stop？"                   = "Stop？";
+"Add a New Robot"         = "Add a New Robot";
+"Enter Robot Name"        = "Enter Robot Name";
+"Step One"                = "Step One";
+"Step Two"                = "Step Two";
+"Step Three"              = "Step Three";
+"Step Four"               = "Step Four";
+"Step Five"               = "Step Five";
+"Step Six"                = "Step Six";
+"Step Seven"              = "Step Seven";
+"Connection Wizard"       = "Connection Wizard";
+"Press the triangle icon to remove the trash bin" = "Press the triangle icon to remove the trash bin";
+"Power on the machine and the device enters the standby mode" = "Power on the machine and the device enters the standby mode";
+"The robot enters the network configuration mode and the network indicator blinks" = "The robot enters the network configuration mode and the network indicator blinks";
+"The robot temporarily cannot be accessed to the WiFi of 5GHz" = "The robot temporarily cannot be accessed to the WiFi of 5GHz";
+"Robot ID:"               = "Robot ID:";
+"Robot Wi-Fi:" = "Robot Wi-Fi:";
+"After pressing and holding for 5 seconds in the standby mode, you will hear two beeps and release" = "After pressing and holding for 5 seconds in the standby mode, you will hear two beeps and release";
+"Home WiFi:"               = "Home WiFi:";
+"*Tips: Please connect your mobile phone to the \"Robot-XXXX\" wireless network of robot with the default password is 123456789. Go back to this page after connected successfully, and click to start the connection." = "*Tips: Please connect your mobile phone to the \"Robot-XXXX\" wireless network of robot with the default password is 123456789. Go back to this page after connected successfully, and click to start the connection.";
+"After pressing  and holding for 5 seconds in the standby mode, you will hear a buzz, Do not release until voice announcement says \"Start WiFi pairing\", Robot enters APLink mode and network signal light starts blinking。" = "After pressing  and holding for 5 seconds in the standby mode, you will hear a buzz, Do not release until voice announcement says \"Start WiFi pairing\", Robot enters APLink mode and network signal light starts blinking。";
+"ILIFE Robotic Cleaner"   = "ILIFE Robotic Cleaner";
+"Start"                   = "Start";
+"Stop"                    = "Stop";
+"Spot Cleaning"           = "Spot Cleaning";
+"Standby"                 = "Standby";
+"Sleep"                   = "Sleep";
+"Remote"                  = "Remote";
+"Recharge"                = "Recharge";
+"Edge"                    = "Edge";
+"Auto Mode"               = "Auto Mode";
+"Classic Mode"            = "Classic Mode";
+"Charging"                = "Charging";
+"Current Status"          = "Current Status";
+"Cleaning Area"           = "Cleaning Area";
+"Cleaning Time"           = "Cleaning Time";
+"Dust Tank Abnormal"      = "Dust Tank Abnormal";
+"Abnormal"                = "Abnormal";
+"Navigation Module Abnormal" = "Navigation Module Abnormal";
+"Filter Abnormal"         = "Filter Abnormal";
+"Left Side Brush Abnormal" = "Left Side Brush Abnormal";
+"Left Wheel Abnormal"     = "Left Wheel Abnormal";
+"Right Side Brush Abnormal" = "Right Side Brush Abnormal";
+"Right Wheel Abnormal"    = "Right Wheel Abnormal";
+"Nose Wheel Abnormal"     = "Nose Wheel Abnormal";
+"Anti-bump Sensors Abnormal" = "Anti-bump Sensors Abnormal";
+"Other Error"             = "Other Error";
+"Main Brush Abnormal"     = "Main Brush Abnormal";
+"Edge Module Abnormal"    = "Edge Module Abnormal";
+"Fan Motor Abnormal"      = "Fan Motor Abnormal";
+"Battery Abnormal"        = "Battery Abnormal";
+"Bumper Abnormal"         = "Bumper Abnormal";
+"Cliff Sensors Abnormal"  = "Cliff Sensors Abnormal";
+"Robot Not On the Floor"  = "Robot Not On the Floor";
+"Connecting Timeout"      = "Connecting Timeout";
+"Network Error"           = "Network Error";
+"Robot Camera Abnormal"   = "Robot Camera Abnormal";
+"Invalid operation"       = "Invalid operation";
+"Lidar Abnormal"          = "Lidar Abnormal";
+"Side Brush Abnormal"     = "Side Brush Abnormal";
+"Water Pump Abnormal"     = "Water Pump Abnormal";
+"Water Tank Abnormal"     = "Water Tank Abnormal";
+"Air Aump Abnormal"       = "Air Aump Abnormal";
+"Route Abnormal"          = "Route Abnormal";
+"Radar Assembly Abnormal" = "Radar Assembly Abnormal";
+"Optical Component Anomaly" = "Optical Component Anomaly";
+"Nav"                     = "Nav";
+"Random"                  = "Random";
+"10 electronic walls can be set up at most!" = "10 electronic walls can be set up at most!";
+"Whether to exit the electronic wall setup?" = "Whether to exit the electronic wall setup?";
+"This operation will repeal all current setting changes." = "This operation will repeal all current setting changes.";
+"Whether to enter map edit mode?" = "Whether to enter map edit mode?";
+"This operation will pause the host cleaning" = "This operation will pause the host cleaning";
+"Whether to apply all electronic wall Settings?" = "Whether to apply all electronic wall Settings?";
+"Enter new electronic wall setting mode!" = "Enter new electronic wall setting mode!";
+"Enter add forbidden area mode!" = "Enter add forbidden area mode!";
+"With the finger in the map corresponding position line can be added" = "1.Electronic wall can be set when a line is drawn on the map at corresponding position;\n2.Do not use electronic wall to isolate dangerous areas;\n3.Electronic wall currently is a trial function,Instability exists.";
+"With the finger in the map corresponding position forbidden area can be added" = "With the finger in the map corresponding position forbidden area can be added";
+"Manually move the host or reopen the opportunity to clear the electronic wall settings" = "1.Manual move of the robot or restart of the robot will eliminate the electronic wall settings;\n2.Significant changes in home environment can lead to errors of previous drawn map and electronic wall settings;\n3.TThe electronic wall settings will be applied to the next cleaning only when the robot finishes this cleaning and successfully returns to the charging base.";
+"Setting virtual walls" = "Setting electronic walls";
+"Setting forbidden area" = "Setting forbidden area";
+"Whether to apply all forbidden area Settings?" = "Whether to apply all forbidden area Settings?";
+"Planning"                = "Planning";
+"Cleaning Records"        = "Cleaning Records";
+"Can't Change Suction In This Mode" = "Can't Change Suction In This Mode";
+"Max Mode"                = "Max Mode";
+"Searching For Robot"     = "Searching For Robot";
+"s"                       = "s";
+"Robot Name"              = "Robot Name";
+"Reset All Settings"      = "Reset All Settings";
+"Are You Sure to Reset All Settings?" = "Are You Sure to Reset All Settings?";
+"() Seconds"              = "() Seconds";
+"Only Administrator Have Access" = "Only Administrator Have Access";
+"Cleaning"                = "Cleaning";
+"Cleaning Mode"           = "Cleaning Mode";
+"All Cleaning Data Will Be Deleted" = "All Cleaning Data Will Be Deleted";
+"Water Tank Control"      = "Water Tank Control";
+"Soft"                    = "Soft";
+"Normal"                  = "Normal";
+"Strong"                  = "Strong";
+"Names can only contain numbers, letters, Chinese, and special characters under English" = "Names can only contain numbers, letters, Chinese, and special characters under English";
+"Name successfully changed" = "Name successfully changed";
+"Firmware Update"         = "Firmware Update";
+"Tone Switch"             = "Tone Switch";
+"No Planning Records Found" = "No Planning Records Found";
+"Add Planning"            = "Add Planning";
+"Planning Failed, Please Add Again"       = "Planning Failed, Please Add Again";
+"You Could Add Maximum 7 Plannings" = "You Could Add Maximum 7 Plannings";
+"Planning Time"           = "Planning Time";
+"Same Planning Already Exist" = "Same Planning Already Exist";
+"Repeat"                  = "Repeat";
+"Please Select The Repeat Date" = "Please Select The Repeat Date";
+"AM" = "AM";
+"PM" = "PM";
+"MON"                     = "MON";
+"Monday"                  = "Monday";
+"Every MON"               = "Every MON";
+"TUE"                     = "TUE";
+"Tuesday"                 = "Tuesday";
+"Every TUE"               = "Every TUE";
+"WED"                     = "WED";
+"Wednesday"               = "Wednesday";
+"Every WED"               = "Every WED";
+"THUR"                    = "THUR";
+"Thursday"                = "Thursday";
+"Every THUR"              = "Every THUR";
+"FRI"                     = "FRI";
+"Friday"                  = "Friday";
+"Every FRI"               = "Every FRI";
+"SAT"                     = "SAT";
+"Saturday"                = "Saturday";
+"Every SAT"               = "Every SAT";
+"SUN"                     = "SUN";
+"Sunday"                  = "Sunday";
+"Every SUN"               = "Every SUN";
+"Save"                    = "Save";
+"Cancel"                  = "Cancel";
+"On"                      = "On";
+"Off"                     = "Off";
+"Delete"                  = "Delete";
+"Planning Records"        = "Planning Records";
+"History Record"          = "History Record";
+"Duration"                = "Duration";
+"Low battery"             = "Low battery";
+"No History Record"       = "No History Record";
+"Record Detail"           = "Record Detail";
+"Spare Parts Condition"   = "Spare Parts Condition";
+"Filter Life"             = "Filter Life";
+"Main Brush Life"         = "Main Brush Life";
+"Side Brush Life"         = "Side Brush Life";
+"Reset Filter Life"       = "Reset Filter Life";
+"Reset Mop Life"          = "Reset Mop Life";
+"Reset Main Brush Life"   = "Reset Main Brush Life";
+"Reset Side Brush Life"   = "Reset Side Brush Life";
+"Tips: Long Press to Reset Spare Parts Life" = "Tips: Long Press to Reset Spare Parts Life";
+"Are You Sure To Reset"   = "Are You Sure To Reset";
+"Reset Done"              = "Reset Done";
+"Currently the latest version" = "Currently the latest version";
+"Back" = "Back";
+"Update unsuccessful" = "Update unsuccessful";
+"Update failed, click to try again" =  "Update failed, click to try again";
+"Click Retry" =  "Click Retry";
+"During the upgrade, do not power off, wait for the upgrade to complete before using"
+= "During the upgrade, do not power off, wait for the upgrade to complete before using";
+"Update completed" = "Update completed";
+"Please charge the battery to 20% or more and try again" = "Please charge the battery to 20% or more and try again";
+"Installing update" = "Installing update";
+"The installation process needs to restart the device, which may take a long time, please be patient." = "The installation process needs to restart the device, which may take a long time, please be patient.";
+"Updating" = "Updating";
+"Update"  = "Update";
+"The Current Version" = "The Current Version";
+"The Latest Version"  = "The Latest Version";
+"Start Reason"  =  "Start Reason";
+"Stop Reason"  = "Stop Reason";
+"App trigger"   = "App trigger";
+"Remote control trigger" = "Remote control trigger";
+"Button trigger" = "Button trigger";
+"App timing trigger" = "App timing trigger";
+"Host timing trigger" = "Host timing trigger";
+"Breakpoint sweep trigger" = "Breakpoint sweep trigger";
+"Normal cleaning is stopped" = "Normal cleaning is stopped";
+"Low battery chargeback stop" = "Low battery chargeback stop";
+"Remote control pause" = "Remote control pause";
+"Button pause" = "Button pause";
+"App actively suspended" = "App actively suspended";
+"Abnormal alarm stop" = "Abnormal alarm stop";
+"Carpet pressurization" = "Carpet pressurization";
+"Pause" = "Pause";
+"Temporary spot" = "Temporary spot";
+"The forbidden area contains the location of the robot, please adjust the position of the forbodden area" = "The forbidden area contains the location of the robot, please adjust the position of the forbodden area";
+"The electronic wall is too close to the robot, please readjust" = "The electronic wall is too close to the robot, please readjust";
+"Please choose your operation" = "Please choose your operation";
+"Please set the current task for your robot" = "Please set the current task for your robot";
+"Suspend" = "pause";
+"Finish" = "end";
+"electronic wall" = "electronic wall";
+"forbidden Area"  = "forbidden Area";
+"Modification of avatars is not supported" = "Modification of avatars is not supported";
+"Preview" = "Preview";
+"Please adjust the position of the electronic wall and the forbidden area first" = "Please adjust the position of the electronic wall and the forbidden area first";
+"The robot does not support the  function of set forbidden area" = "The robot does not support the  function of set forbidden area";
+"Setting Succeed" = "Setting Succeed";
+"Setting Failed" = "Setting Failed";
+"Please connect home Wi-Fi" = "Please connect home Wi-Fi";
+"Please jump to the phone settings interface, connect to the WiFi beginning with Robot what the default password is 123456789" = "Please jump to the phone settings interface, connect to the WiFi beginning with Robot what the default password is 123456789";
+"Volume Setting" = "Volume Setting";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

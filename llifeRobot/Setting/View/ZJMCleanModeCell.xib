@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="143" id="KGk-i7-Jjw" customClass="ZJMCleanModeCell">
+            <rect key="frame" x="0.0" y="0.0" width="444" height="143"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="444" height="142.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ymx-rd-88x">
+                        <rect key="frame" x="20" y="39" width="64" height="64.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Ymx-rd-88x" secondAttribute="height" multiplier="1:1" id="oeU-EM-8OH"/>
+                        </constraints>
+                        <state key="normal" image="radio_bt_normal_"/>
+                        <state key="selected" image="radio_bt_selected_"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="规划" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oih-pC-z8X">
+                        <rect key="frame" x="92" y="41" width="35" height="60.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Oih-pC-z8X" firstAttribute="leading" secondItem="Ymx-rd-88x" secondAttribute="trailing" constant="8" id="47w-bs-JHi"/>
+                    <constraint firstItem="Ymx-rd-88x" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Shy-fn-EWl"/>
+                    <constraint firstItem="Oih-pC-z8X" firstAttribute="centerY" secondItem="Ymx-rd-88x" secondAttribute="centerY" id="TF6-eV-KrS"/>
+                    <constraint firstItem="Oih-pC-z8X" firstAttribute="top" secondItem="Ymx-rd-88x" secondAttribute="top" constant="2" id="WXg-9z-48H"/>
+                    <constraint firstItem="Ymx-rd-88x" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.45" id="cCs-rh-F2Z"/>
+                    <constraint firstItem="Ymx-rd-88x" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sjQ-kG-qAv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="starCleanBtn" destination="Ymx-rd-88x" id="fA5-J5-e9B"/>
+                <outlet property="starCleanText" destination="Oih-pC-z8X" id="O43-Ow-b5u"/>
+            </connections>
+            <point key="canvasLocation" x="-59" y="141.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="radio_bt_normal_" width="64" height="64"/>
+        <image name="radio_bt_selected_" width="64" height="64"/>
+    </resources>
+</document>
